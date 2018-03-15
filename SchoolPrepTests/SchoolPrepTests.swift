@@ -2,8 +2,8 @@
 //  SchoolPrepTests.swift
 //  SchoolPrepTests
 //
-//  Created by C4Q on 3/12/18.
-//  Copyright © 2018 C4Q. All rights reserved.
+//  Created by Diego Baca on 3/12/18.
+//  Copyright © 2018 Diego Baca. All rights reserved.
 //
 
 import XCTest

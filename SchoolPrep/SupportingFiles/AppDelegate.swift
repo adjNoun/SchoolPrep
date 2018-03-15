@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SchoolPrep
 //
-//  Created by C4Q on 3/12/18.
-//  Copyright © 2018 C4Q. All rights reserved.
+//  Created by Diego Baca on 3/12/18.
+//  Copyright © 2018 Diego Baca. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // load saved schools into "cache"
+        SavedSchoolsService.manager.configure()
         return true
     }
 

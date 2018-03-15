@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		81192CAA20576A980011CB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CA920576A980011CB0F /* AppDelegate.swift */; };
-		81192CAC20576A980011CB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CAB20576A980011CB0F /* ViewController.swift */; };
 		81192CAF20576A980011CB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81192CAD20576A980011CB0F /* Main.storyboard */; };
 		81192CB120576A980011CB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81192CB020576A980011CB0F /* Assets.xcassets */; };
 		81192CB420576A980011CB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81192CB220576A980011CB0F /* LaunchScreen.storyboard */; };
 		81192CBF20576A980011CB0F /* SchoolPrepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CBE20576A980011CB0F /* SchoolPrepTests.swift */; };
 		81192CCA20576A980011CB0F /* SchoolPrepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CC920576A980011CB0F /* SchoolPrepUITests.swift */; };
+		81192CD920576AEE0011CB0F /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CD820576AEE0011CB0F /* MainListViewController.swift */; };
+		81192CE5205770430011CB0F /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CE4205770430011CB0F /* SchoolTableViewCell.swift */; };
+		81192CE82057753D0011CB0F /* FilterSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CE72057753D0011CB0F /* FilterSettings.swift */; };
+		81192CEB2057781E0011CB0F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CEA2057781E0011CB0F /* FilterViewController.swift */; };
+		81192CEE20577DB40011CB0F /* SchoolDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CED20577DB40011CB0F /* SchoolDetailsViewController.swift */; };
+		81192CF120577E1A0011CB0F /* SchoolDirectoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CF020577E1A0011CB0F /* SchoolDirectoryInfo.swift */; };
+		81192CF320577E8C0011CB0F /* DirectoryAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CF220577E8C0011CB0F /* DirectoryAPIClient.swift */; };
+		81192CF520577EC90011CB0F /* SchoolSATInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CF420577EC90011CB0F /* SchoolSATInfo.swift */; };
+		81192CF720577EE00011CB0F /* SATScoreAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CF620577EE00011CB0F /* SATScoreAPIClient.swift */; };
+		81192CF920577F020011CB0F /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CF820577F020011CB0F /* NetworkHelper.swift */; };
+		81192CFB2058C4CD0011CB0F /* FullInfoSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CFA2058C4CD0011CB0F /* FullInfoSchool.swift */; };
+		81192D002058D9860011CB0F /* SavedSchoolsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192CFF2058D9860011CB0F /* SavedSchoolsService.swift */; };
+		81192D022058E2340011CB0F /* SavedSchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192D012058E2340011CB0F /* SavedSchoolsTableViewController.swift */; };
+		81192D042058FB6B0011CB0F /* StreetImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192D032058FB6B0011CB0F /* StreetImageAPIClient.swift */; };
+		81192D062059058B0011CB0F /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81192D052059058B0011CB0F /* ImageStorageService.swift */; };
+		81DECD14205A4E0E00214866 /* SchoolInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DECD13205A4E0E00214866 /* SchoolInfoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		81192CA620576A980011CB0F /* SchoolPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81192CA920576A980011CB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81192CAB20576A980011CB0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81192CAE20576A980011CB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81192CB020576A980011CB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81192CB320576A980011CB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,22 @@
 		81192CC520576A980011CB0F /* SchoolPrepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolPrepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81192CC920576A980011CB0F /* SchoolPrepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolPrepUITests.swift; sourceTree = "<group>"; };
 		81192CCB20576A980011CB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81192CD820576AEE0011CB0F /* MainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
+		81192CE4205770430011CB0F /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		81192CE72057753D0011CB0F /* FilterSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSettings.swift; sourceTree = "<group>"; };
+		81192CEA2057781E0011CB0F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		81192CED20577DB40011CB0F /* SchoolDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewController.swift; sourceTree = "<group>"; };
+		81192CF020577E1A0011CB0F /* SchoolDirectoryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDirectoryInfo.swift; sourceTree = "<group>"; };
+		81192CF220577E8C0011CB0F /* DirectoryAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryAPIClient.swift; sourceTree = "<group>"; };
+		81192CF420577EC90011CB0F /* SchoolSATInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSATInfo.swift; sourceTree = "<group>"; };
+		81192CF620577EE00011CB0F /* SATScoreAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScoreAPIClient.swift; sourceTree = "<group>"; };
+		81192CF820577F020011CB0F /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		81192CFA2058C4CD0011CB0F /* FullInfoSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInfoSchool.swift; sourceTree = "<group>"; };
+		81192CFF2058D9860011CB0F /* SavedSchoolsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedSchoolsService.swift; sourceTree = "<group>"; };
+		81192D012058E2340011CB0F /* SavedSchoolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedSchoolsTableViewController.swift; sourceTree = "<group>"; };
+		81192D032058FB6B0011CB0F /* StreetImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetImageAPIClient.swift; sourceTree = "<group>"; };
+		81192D052059058B0011CB0F /* ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorageService.swift; sourceTree = "<group>"; };
+		81DECD13205A4E0E00214866 /* SchoolInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +127,10 @@
 		81192CA820576A980011CB0F /* SchoolPrep */ = {
 			isa = PBXGroup;
 			children = (
-				81192CA920576A980011CB0F /* AppDelegate.swift */,
-				81192CAB20576A980011CB0F /* ViewController.swift */,
-				81192CAD20576A980011CB0F /* Main.storyboard */,
-				81192CB020576A980011CB0F /* Assets.xcassets */,
-				81192CB220576A980011CB0F /* LaunchScreen.storyboard */,
+				81192CEF20577DF40011CB0F /* Models */,
+				81192CE6205775220011CB0F /* Services */,
+				81192CD720576AA70011CB0F /* Pages */,
+				81DECD12205A3BEF00214866 /* SupportingFiles */,
 				81192CB520576A980011CB0F /* Info.plist */,
 			);
 			path = SchoolPrep;
@@ -111,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				81192CBE20576A980011CB0F /* SchoolPrepTests.swift */,
+				81DECD13205A4E0E00214866 /* SchoolInfoTests.swift */,
 				81192CC020576A980011CB0F /* Info.plist */,
 			);
 			path = SchoolPrepTests;
@@ -123,6 +153,85 @@
 				81192CCB20576A980011CB0F /* Info.plist */,
 			);
 			path = SchoolPrepUITests;
+			sourceTree = "<group>";
+		};
+		81192CD720576AA70011CB0F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				81192CE020576B270011CB0F /* MainList */,
+				81192CE9205778090011CB0F /* Filter */,
+				81192CEC20577D940011CB0F /* SchoolDetails */,
+				81192CFC2058D87D0011CB0F /* SavedSchools */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		81192CE020576B270011CB0F /* MainList */ = {
+			isa = PBXGroup;
+			children = (
+				81192CD820576AEE0011CB0F /* MainListViewController.swift */,
+				81192CE4205770430011CB0F /* SchoolTableViewCell.swift */,
+			);
+			path = MainList;
+			sourceTree = "<group>";
+		};
+		81192CE6205775220011CB0F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				81192CF820577F020011CB0F /* NetworkHelper.swift */,
+				81192CE72057753D0011CB0F /* FilterSettings.swift */,
+				81192CFF2058D9860011CB0F /* SavedSchoolsService.swift */,
+				81192D052059058B0011CB0F /* ImageStorageService.swift */,
+				81192CF220577E8C0011CB0F /* DirectoryAPIClient.swift */,
+				81192CF620577EE00011CB0F /* SATScoreAPIClient.swift */,
+				81192D032058FB6B0011CB0F /* StreetImageAPIClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		81192CE9205778090011CB0F /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				81192CEA2057781E0011CB0F /* FilterViewController.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		81192CEC20577D940011CB0F /* SchoolDetails */ = {
+			isa = PBXGroup;
+			children = (
+				81192CED20577DB40011CB0F /* SchoolDetailsViewController.swift */,
+			);
+			path = SchoolDetails;
+			sourceTree = "<group>";
+		};
+		81192CEF20577DF40011CB0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81192CF020577E1A0011CB0F /* SchoolDirectoryInfo.swift */,
+				81192CF420577EC90011CB0F /* SchoolSATInfo.swift */,
+				81192CFA2058C4CD0011CB0F /* FullInfoSchool.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81192CFC2058D87D0011CB0F /* SavedSchools */ = {
+			isa = PBXGroup;
+			children = (
+				81192D012058E2340011CB0F /* SavedSchoolsTableViewController.swift */,
+			);
+			path = SavedSchools;
+			sourceTree = "<group>";
+		};
+		81DECD12205A3BEF00214866 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				81192CA920576A980011CB0F /* AppDelegate.swift */,
+				81192CAD20576A980011CB0F /* Main.storyboard */,
+				81192CB020576A980011CB0F /* Assets.xcassets */,
+				81192CB220576A980011CB0F /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +368,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81192CAC20576A980011CB0F /* ViewController.swift in Sources */,
+				81192CF920577F020011CB0F /* NetworkHelper.swift in Sources */,
+				81192CE82057753D0011CB0F /* FilterSettings.swift in Sources */,
+				81192CFB2058C4CD0011CB0F /* FullInfoSchool.swift in Sources */,
+				81192D002058D9860011CB0F /* SavedSchoolsService.swift in Sources */,
+				81192CD920576AEE0011CB0F /* MainListViewController.swift in Sources */,
+				81192CF320577E8C0011CB0F /* DirectoryAPIClient.swift in Sources */,
+				81192CEE20577DB40011CB0F /* SchoolDetailsViewController.swift in Sources */,
+				81192CEB2057781E0011CB0F /* FilterViewController.swift in Sources */,
+				81192CF120577E1A0011CB0F /* SchoolDirectoryInfo.swift in Sources */,
+				81192CF720577EE00011CB0F /* SATScoreAPIClient.swift in Sources */,
+				81192D042058FB6B0011CB0F /* StreetImageAPIClient.swift in Sources */,
+				81192D022058E2340011CB0F /* SavedSchoolsTableViewController.swift in Sources */,
 				81192CAA20576A980011CB0F /* AppDelegate.swift in Sources */,
+				81192D062059058B0011CB0F /* ImageStorageService.swift in Sources */,
+				81192CF520577EC90011CB0F /* SchoolSATInfo.swift in Sources */,
+				81192CE5205770430011CB0F /* SchoolTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81192CBF20576A980011CB0F /* SchoolPrepTests.swift in Sources */,
+				81DECD14205A4E0E00214866 /* SchoolInfoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
